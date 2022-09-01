@@ -1,3 +1,35 @@
+.nav {
+    box-sizing: border-box;
+    background-color:skyblue;
+}
+.logo {
+    box-sizing: border-box;
+    margin: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+.navend {
+    display: flex;
+    justify-content: end;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.searchbtn {
+    display: flex;
+    justify-content:end;
+}
+
+
+
+
 .footer {
     display: flex;
 }
