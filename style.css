@@ -1,6 +1,6 @@
 * {
     background-color: bisque;
-    
+    background-colo: rgb(222, 217, 223);
  }
  body {
     position: relative;
@@ -15,7 +15,7 @@
     color: bisque;
  }
  header *{
-    background-color: blueviolet;
+    background-color: rgb(174, 0, 255);
  }
  .nav {
     box-sizing: border-box;
@@ -33,15 +33,45 @@
     color: bisque;
   }
 
-
- .stats {
+  .intropic, img {
+    margin: 40px;
+    padding-left: 100px;
+    padding: 10px;
+  }
+  .stats {
     display: flex;
     justify-content: space-evenly;
+    border: 2px solid;
+    position: relative;
+    box-sizing: border-box;
+    box-shadow:5px 5px 2px grey;
+    margin: 50px;
  }
+ .stats1 {
+    font-size: 18px;
+ }
+
+ .aboutpic, img {
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: end;
+    padding-right: 100px;
+
+ }
+
+ .whypic, img {
+    margin:20px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    object-fit: contain;
+ }
+
+ 
 
  .searchbtn {
     display: flex;
     justify-content:end;
+    margin: 20px;
  }
  button {
     background-color: rgb(174, 0, 255);
@@ -53,14 +83,22 @@
  .vehicles, .spareparts{
     display: flex;
     justify-content: space-evenly;
+    border: 2px solid;
+    position: relative;
+    box-sizing: border-box;
+    box-shadow:5px 5px 2px grey;
+    margin: 50px;
 
  }
  
  .footer * {
     background-color: rgb(174, 0, 255);
+    padding: 10px;
  }
  .socials img {
     object-fit: contain;
+    max-width: 100px;
+    max-height:px;
 
  }
  .footers {
