@@ -33,12 +33,17 @@
   }
   .nav, .navend, .subscribe, button {
    color: white;
+  }
 
+  .intro, .whyLM, .about{
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 30px;
   }
 
   .intropic, img {
     margin: 40px;
-    padding-left: 100px;
+    padding-left: 10px;
     padding: 10px;
   }
   .stats {
@@ -58,13 +63,13 @@
     display: flex;
     padding-bottom: 20px;
     justify-content: end;
-    padding-right: 100px;
+    padding-right: 10px;
 
  }
 
  .whypic, img {
     margin:20px;
-    padding-left: 100px;
+    padding-left: 10px;
     padding-bottom: 20px;
     object-fit: contain;
  }
