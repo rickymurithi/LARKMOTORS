@@ -110,6 +110,9 @@
    display: flex;
    justify-content: space-evenly;
  }
+ .feeds, p {
+   font-size: 18px;
+ }
  .feed img {
    border-radius: 50%;
  }
