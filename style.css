@@ -1,6 +1,6 @@
 * {
     background-color: bisque;
-    background-colo: rgb(222, 217, 223);
+    background-color: rgb(222, 217, 223);
  }
  body {
     position: relative;
@@ -30,7 +30,10 @@
  }
  .navend{
     padding-top: 50px;
-    color: bisque;
+  }
+  .nav, .navend, .subscribe, button {
+   color: white;
+
   }
 
   .intropic, img {
@@ -101,6 +104,9 @@
  .feedbacks{
    display: flex;
    justify-content: space-evenly;
+ }
+ .feed img {
+   border-radius: 50%;
  }
  
  .footer * {
