@@ -1,6 +1,14 @@
 //Alert function
-document.querySelector('#btn').addEventListener('click', 
-   () => alert('subscribing to LARKMOTORS'))
+document.querySelector('#btn').addEventListener('click',
+() => alert('subscribing to LARKMOTORS'))
+
+//Add likes.
+let numLikes = 0
+let likes = document.querySelector('.likes')
+function addLike() {
+   numLikes ++
+   likes.innerHTML = numLikes
+}
 
 //search list
 document.addEventListener('DOMContentLoaded', () => {
@@ -12,9 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
    })
 })
 
-//function buildToDo() {
-   
-//}
+//Add feedback.
 document.addEventListener("DOMContentLoaded", () => {
    // code!
    form = document.querySelector('form')
@@ -34,6 +40,10 @@ document.addEventListener("DOMContentLoaded", () => {
    li.appendChild(btn)
    document.querySelector('#tasks').appendChild(li)
  }
+
+//Remove feedback.
+
+
  function handleDelete (e) {
    e.target.parentNode.remove()
  }

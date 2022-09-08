@@ -36,12 +36,16 @@
             </div>
             <div class="navend">
                 <ul>
-                    <button type="menu" id="account"><a href="account.html">ACCOUNT</a></button>
+                    <button type="menu" id="account"><a href="#">ACCOUNT</a></button>
                 </ul>
                 <div class="subscribe">
                     <ul>
                         <button type="button" id="btn">SUBSCRIBE</button>
                     </ul>
+                </div>
+                <div class="Likes">
+                    <span id="like-count" class="likes">0 likes</span>
+                    <button id="like-button" class="like-button" onclick="addLike()">♥</button>
                 </div>
             </div>
     </header>
@@ -94,7 +98,7 @@
         </div>
     </div>
     <div class="searchbtn">
-        <form action="">
+        <form action="#">
             <input type="text" id="search" placeholder="Products by Name and Category" name="Products by Name and Category" >
             <button type="button">Search</button>
         </form>
@@ -194,7 +198,24 @@
             </div>
         </div>
     </div>
-    
+
+    <div class="Comment">
+        <h2>Leave us a comment</h2>
+        <form>
+           <textarea id="" placeholder="Add Your Comment" value=" "></textarea>
+           <div class="btn">
+               <input id="submit" type="submit" value="Comment">
+               <button id="clear">  
+                &#128686;</button>
+           </div> 
+        </form>
+    </div>
+    <div class="comments">
+       <h2>Comments</h2>
+        <div id="comment-box">
+        </div>
+    </div>
+
     <div class="footer">
         <div class="footers">
             <div class="logoS">
