@@ -1,9 +1,21 @@
+//GET
+function get() {
+   fetch('')
+   .then(res => res.json())
+   .then(  => )
+}
+//Initialize rendering.
+function initialize() {
+   get  ()
+}
+initialize()
+
 //Alert function
 document.querySelector('#btn').addEventListener('click',
 () => alert('subscribing to LARKMOTORS'))
 
 //Add likes.
-let numLikes = 0
+let numLikes = 69
 let likes = document.querySelector('.likes')
 function addLike() {
    numLikes ++
@@ -39,11 +51,10 @@ document.addEventListener("DOMContentLoaded", () => {
    li.textContent = `${todo}`
    li.appendChild(btn)
    document.querySelector('#tasks').appendChild(li)
- }
+}
 
 //Remove feedback.
 
-
- function handleDelete (e) {
+function handleDelete (e) {
    e.target.parentNode.remove()
- }
+}
